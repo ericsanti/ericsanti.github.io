@@ -1,0 +1,22 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+header {
+    color: rgb(15, 54, 11);
+    font-size: 20px;
+    text-align: center;
+}
+nav {
+    background-color: rgb(16, 56, 43);
+    padding-top: 10px;
+    padding-bottom: 25px;
+}
+nav a {
+    text-decoration: none;
+    color: azure;
+    display: block;
+    float: left;
+    width: 100px;
+    text-align: center;
+}
