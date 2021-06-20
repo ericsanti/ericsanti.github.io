@@ -3,20 +3,32 @@ body {
     padding: 0;
 }
 header {
+    width: 800px;
+    height: 80px;
+    background-color: cadetblue;
     color: rgb(15, 54, 11);
     font-size: 20px;
     text-align: center;
+    line-height: 80px;
+    margin-left: auto;
+    margin-right: auto;
+    
 }
 nav {
+    width: 800px;
     background-color: rgb(16, 56, 43);
     padding-top: 10px;
     padding-bottom: 25px;
+    margin-left: auto;
+    margin-right: auto;
 }
 nav a {
     text-decoration: none;
     color: azure;
     display: block;
     float: left;
-    width: 100px;
+    width: 200px;
     text-align: center;
+    
+
 }
