@@ -1,34 +1,36 @@
 body {
-    margin: 0;
-    padding: 0;
+    background-image: url(https://images.pexels.com/photos/1227511/pexels-photo-1227511.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500);
 }
-header {
-    width: 800px;
-    height: 80px;
-    background-color: cadetblue;
-    color: rgb(15, 54, 11);
-    font-size: 20px;
-    text-align: center;
-    line-height: 80px;
-    margin-left: auto;
-    margin-right: auto;
-    
+*{
+    margin: 0%;
 }
-nav {
-    width: 800px;
-    background-color: rgb(16, 56, 43);
-    padding-top: 10px;
-    padding-bottom: 25px;
-    margin-left: auto;
-    margin-right: auto;
-}
-nav a {
-    text-decoration: none;
-    color: azure;
-    display: block;
-    float: left;
-    width: 200px;
-    text-align: center;
-    
 
+nav {
+    background-color: rgb(41, 129, 101);
+    height: 70px;
+}
+
+li {
+    display: inline-flex;
+    list-style: none;
+    text-align: center;
+    font-size: 25px;
+    padding-top: 10px;
+}
+a {
+    text-decoration: none;
+    width: 200px;
+    color: rgb(3, 44, 119);
+}
+a:hover {
+    color: rgb(231, 123, 22);
+}
+.name {
+    font-size: 35px;
+    color: rgb(236, 236, 243);
+}
+.main-body {
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
 }
